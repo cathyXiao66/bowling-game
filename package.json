@@ -1,0 +1,25 @@
+{
+  "name": "users-hierarchy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "jest": "27.0.3",
+    "jest-extended": "0.11.5",
+    "parcel-bundler": "^1.8.0"
+  },
+  "keywords": [],
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-extended"
+    ]
+  }
+}
